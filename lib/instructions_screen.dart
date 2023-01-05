@@ -14,7 +14,13 @@ class InstructionsScreen extends StatelessWidget {
         ),
         title: const Text('Instructions'),
       ),
-      body: const Text('Veillez bien lire les instructions'),
+      body: Container(
+        padding: const EdgeInsets.all(15.0),
+        child: const Text(
+          "C'est un jeu dans le quel on doit cliquer sur un bouton, qui s'affiche au hasard sur l'écran, le max possible dans un délai bien défini(10 secondes). Ce jeu peut vous permettre d'augmenter votre temps de réaction.",
+          style: TextStyle(fontSize: 20.0),
+        ),
+      ),
     ));
   }
 }

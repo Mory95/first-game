@@ -40,10 +40,6 @@ class _HomePageState extends State<HomePage> {
               );
             })),
       ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: () => SystemNavigator.pop(),
-      //   child: const Icon(Icons.exit_to_app),
-      // ),
     );
   }
 }

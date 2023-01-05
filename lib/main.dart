@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/game': (context) => const GameScreen(),
-        '/records': (context) => const HighScoresScreen(),
+        '/records': (context) => HighScoresScreen(),
         '/instructions': (context) => const InstructionsScreen(),
         '/parametre': (context) => const SettingPage(),
       },
